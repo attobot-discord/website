@@ -14,7 +14,7 @@ Per server, we store the giveaways/tickets/Server Stats/user infractions and oth
 AttoBot needs this data to provide a seamless experience of her features for each server/guild & user, AttoBot will never sneakily fetch your data.
 
 ## How do we handle the data?
-We store data with [MongoDB](https://quickmongo.js.org) and [Redis](https://docs.redislabs.com/latest/rs/references/client_references/client_ioredis/) via verified database wrappers. MongoDB is used to store permanent data while Redis is used for caching.
+We store data with [quick.db](https://quickdb.js.org).
 
 ## Questions and concerns
 If you have any concerns about this privacy policy, please ask about it in the [Support Server](https://support.attobot.xyz)
